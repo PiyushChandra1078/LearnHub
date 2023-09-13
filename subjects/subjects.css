@@ -167,14 +167,15 @@ body {
 	margin: 10px;
 	background: #fff;
 	cursor: pointer;
-	border-radius: 50px;
+	border-radius: 5px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
 }
 .cbox .det a{
 	justify-content: space-around;
 	width: 100%;
 	padding: 20px;
-	border-radius: 50px;
-	border: 1px solid #FA4B37;
+	border-radius: 5px;
+	/* border: 1px solid #FA4B37; */
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
@@ -182,7 +183,7 @@ body {
 }
 
 .cbox .det a:hover{
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #5093f9);
 	color: white;
 }
 
@@ -212,9 +213,10 @@ body {
 	margin: 10px;
 	width: 300px;
 	height: 200px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #5093f9);
 	border-radius: 10px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
 }
 
 .dcard .fpart {
@@ -281,6 +283,7 @@ body {
 	height: 160px;
 	background: linear-gradient(to right, #FA4B37, #DF2771);
 	border-radius: 10px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
 }
 .dcard2:hover .fpart2 img {
 	display: none;
@@ -453,7 +456,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #5093f9);
 	margin: 2px;
 }
 
@@ -485,7 +488,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #5093f9);
 	border: none;
 	font-weight: 700;
 	outline: none;
