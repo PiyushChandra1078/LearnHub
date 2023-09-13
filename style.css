@@ -902,6 +902,13 @@ footer .btn:hover {
 		margin: 20px;
 		/* align-self: center; */
 	}
+
+}
+@media (max-width: 400px) {
+    .name_input {
+        width: 100%; /* Make the input fields take up the full width */
+        margin-bottom: 10px; /* Add some spacing between the input fields */
+    }
 }
 
 @media screen and (max-width: 1000px) {	
